@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+// Consultar tenedor de kmaven bind 
     <ImageView
         android:id="@+id/imageView"
         android:contentDescription="tecnm"
