@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         var text=findViewById<EditText>(R.id.editTextText).text.toString()
         tts= TextToSpeech(this,this)
 
-        findViewById<Button>(R.id.button).setOnClickListener {
+// Programación del botón         findViewById<Button>(R.id.button).setOnClickListener {
         if(text.isNotEmpty()){
             Toast.makeText(this,"ingresa texto", Toast.LENGTH_SHORT).show()
         }else{
